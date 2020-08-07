@@ -1,0 +1,41 @@
+{
+  "name": "uxiliary/is-coupon-valid",
+  "description": "Checks if a commerce coupon is valid. Can be used to check if the coupon is valid for a specific customer or email.",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "is coupon valid"
+  ],
+  "support": {
+    "docs": "https://github.com/simeon-smith/is-coupon-valid/blob/master/README.md",
+    "issues": "https://github.com/simeon-smith/is-coupon-valid/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simeon Smith",
+      "homepage": "https://uxiliary.com"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "uxiliary\\iscouponvalid\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Is Coupon Valid",
+    "handle": "is-coupon-valid",
+    "developer": "Simeon Smith",
+    "developerUrl": "https://uxiliary.com",
+    "documentationUrl": "https://github.com/simeon-smith/is-coupon-valid/blob/master/README.md",
+    "changelogUrl": "https://raw.githubusercontent.com/simeon-smith/is-coupon-valid/master/CHANGELOG.md",
+    "class": "uxiliary\\iscouponvalid\\IsCouponValid"
+  }
+}
